@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>iReporter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css"  href="style.css"/>
+        <script language="javascript"type="text/javascript" src="scripts.js" ></script>
+</head>
+<body  bgcolor="rgb(18, 178, 82)">
+  <div class=" main" id="content"><div class="logout" id="logout">You can<a href="login.html"><button>LOGIN</button></a>
+    or <a href="creatAccount.html"><button>CREATE</button> an account</a></div>
+     <div class="header" id="header">
+
+     </div>
+
+            <div class="menu" id="menu">
+              <ul>
+                <a href="index.html">HOME</a>
+                <a href="about.html"> ABOUT </a>
+                <a href="information.html"> INFORMATION </a>
+                <a href="contact.html"> CONTACT </a>
+               </ul>
+               </div>
+     
+               <div class="search" id="search">
+                  <form action="https://www.iReporter.org/search.html"><p>Search:</p>
+              <input type="search" name="search"placeholder="Enter keyword"/>
+              <input type="submit" value="Search"/>
+            </form></div><br/>
+
+                <div class="article" id="article">
+               <br><fieldset><legend>Sign Up from here</legend><form action="POST" method="POST">
+              <form action="login.html" method="post" onSubmit="return validate(form)">
+              <label for="username">Username:</label><br>
+             <input type="text" name="username"required="required" placeholder="Username"/><br />
+
+             <label for="address">Address:</label><br>
+             <input type="address" name="address" required="required" placeholder="Address"/><br />
+
+             <label for="Email">Email:</label><br>
+             <input type="Email" name="Email" required="required" placeholder="Email" /><br />
+
+             <label for="role">Role:</label><br>
+             <select name="role" required="required" placeholder="Role"/>
+             <option value="one" size="8">select an option</option>
+             <option value="one" size="8">User</option>
+             <option value="two" size="8">Administrator</option>
+             </select></br>
+        
+             <label for="gender">Gender:</label><br>
+             <select name="Gender" required="required" placeholder="Select an option"/>
+             <option value="one" size="8">Male</option>
+             <option value="two" size="8">Female</option>
+             </select><br />
+
+             <label for="password">Password:</label><br>
+             <input type="password" name="password" required="required" placeholder="Password"/><br />   
+             <input type="submit"  class="btn-success" value="Sign Up"/>    
+        </form>
+</fieldset>
+</div> 
+<div class="navigation" id="navigation">
+    <ul>
+        <br><a href="mamals.html">Mamals</a></br>
+        <br><a href="reptiles.html">Reptiles</a></br>
+        <br><a href="../site/humans.php">Humans</a></br>
+        <br><a href="../site/babboon.php">Baboons</a></br> 
+      
+      </ul>
+    </div>
+   <div class="column1of3" id="column1of3">
+    <h3>Important links</h3>
+   <p></p>
+   </div>
+   <div class="column2of3" id="column20f3">
+   <h3>Social media pages</h3> 
+       </div>
+      <div class="column3of3" id="column30f3">
+    <h3>Our Contacts</h3>
+    <p>  </p>
+    </div>
+</div>
+</div>
+</div>
+</body>
+</html>
