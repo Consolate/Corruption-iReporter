@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>iReporter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css"  href="style.css"/>
+        <script language="javascript"type="text/javascript" src="scripts.js" ></script>
+</head>
+<body  bgcolor="rgb(18, 178, 82)">
+  <div class=" main" id="content">Your are logged in as a User <div class="logout" id="logout"><a href="index.html"><button>Logout</button></a></div>
+
+     <div class="header" id="header"></div>
+
+            <div class="menu" id="menu">
+              <ul>
+                <a href="index.html">HOME</a>
+                <a href="about.html"> ABOUT </a>
+                <a href="information.html"> INFORMATION </a>
+                <a href="contact.html"> CONTACT </a>
+               </ul>
+               </div>
+     
+              <div class="search" id="search">
+                  <form action="https://www.iReporter.org/search.html">
+                    <p>Search:</p>
+              <input type="search" name="search"placeholder="Enter keyword"/>
+              <input type="submit" value="Search"/>
+            </div><br/>
+
+<br><fieldset><legend>Login from here</legend>
+<form action="https://www.iReporter.org/task.html" method="post" align="center" onSubmit="return validate(form)">
+        <label for="username">Username:</label><br>
+        <input type="text" name="username"required="required" placeholder="Username"/><br />
+
+        <label for="password">Password:</label><br>
+        <input type="password" name="password" required="required" placeholder="Password"/><br />
+
+        <input type="button" onclick="Successful()" value="Login" />
+        </form>
+   <p> Don't have an Acount <a href="creatAccount.html">Creat account</a></p>
+</form>
+</fieldset>
+<div class="navigation" id="navigation">
+    <ul>
+        <br><a href="mamals.html">Mamals</a></br>
+        <br><a href="reptiles.html">Reptiles</a></br>
+        <br><a href="../site/humans.php">Humans</a></br>
+        <br><a href="../site/babboon.php">Baboons</a></br> 
+      
+      </ul>
+    </div>
+   <div class="column1of3" id="column1of3">
+    <h3>Important links</h3>
+   <p></p>
+   </div>
+   <div class="column2of3" id="column20f3">
+   <h3>Social media pages</h3> 
+       </div>
+      <div class="column3of3" id="column30f3">
+    <h3>Our Contacts</h3>
+    <p>  </p>
+    </div>
+</div>
+</div>
+</body>
+</html>
